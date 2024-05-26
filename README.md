@@ -1,1 +1,1 @@
-this is e commerce website for jwellery
+this is mern website for jwellery and cosmetics 
