@@ -40,7 +40,7 @@ import { useSelector} from 'react-redux'
 
 
     const settings1 = {
-        dots: true,
+      dots: true,
       infinite: true,
       speed: 1000,
       autoplay: true,
@@ -48,6 +48,8 @@ import { useSelector} from 'react-redux'
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />
     };
+
+        
     const settings2 = {
       dots: false,
     infinite: true,
@@ -80,6 +82,7 @@ import { useSelector} from 'react-redux'
     ]
     
   };
+
   const settings3 = {
     dots: false,
   infinite: true,
@@ -419,28 +422,39 @@ const exploreImages =[
  
       <div className={styles.bannermain}  >
         
-        <Slider {...settings1}  className={styles.bannerSlider1}  >
-          <div>
-            <img src="https://i.pinimg.com/736x/1b/df/91/1bdf91f6c7281c28999d45eb8eb64590.jpg" alt= "img" className="slideI" />
+        <Slider {...settings1}  className={styles.bannerSlider1} >
+
+        <div className="slideI">
+            <img src="https://blog.tanishq.co.in/wp-content/uploads/2024/03/8-1.jpg" alt="" />
           </div>
-          <div>
+          <div  className="slideI">
+            <img src="https://blog.tanishq.co.in/wp-content/uploads/2024/03/3-1.jpg" alt= "img"  />
+          </div>
+          <div  className="slideI">
+            <img src="https://images.hdqwalls.com/download/ancient-girl-with-jewellery-pz-1920x1080.jpg" alt= "img"  />
+          </div>
+
+           <div className="slideI">
          <img src="https://images.herzindagi.info/image/2023/Aug/gemstones-dont-wear-together.jpg" alt="" />
+          </div> 
+
+          <div className="slideI">
+           <img src="https://png.pngtree.com/background/20230424/original/pngtree-blue-feldspar-gem-on-a-chain-picture-image_2464174.jpg" alt=""  />
           </div>
-          <div>
-           <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fabd3d589-694b-4f81-a74e-2d836d0edf3a.jpg&w=1920&q=75" alt="" />
+
+          
+          <div className="slideI">
+           <img src="https://blog.tanishq.co.in/wp-content/uploads/2024/04/10-lightweight-daily-wear-pendant-sets-for-elegant-styling.png" alt="" />
           </div>
-          <div>
-            <img src="https://d32baadbbpueqt.cloudfront.net/Homepage/2d934fad-8c2a-4f7d-85fc-ea1ed8f23673.jpg" alt="" />
+          <div className="slideI">
+           <img src="https://wallpapers.com/images/hd/jewelry-necklace-with-blue-diamonds-aurtannkux9ky5nu.jpg" alt="" />
           </div>
-          <div>
-           <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fbe3dd028-8d91-40c7-80aa-4e6ba127f80c.jpg&w=1920&q=75" alt="" />
-          </div>
-          <div>
-           <img src="https://d32baadbbpueqt.cloudfront.net/Homepage/1fa29c9d-b7b6-4aa9-ac54-a2195c10fc63.jpg" alt="" />
-          </div>
+
         </Slider>
 </div>
-        <Slider {...settings1}  className={styles.bannerSlider2}  >
+
+  
+        <Slider {...settings1}  className={styles.bannerSlider2}>
          
             <div>
               <img src='  https://d32baadbbpueqt.cloudfront.net/Homepage/e320d245-5aeb-4433-b0b1-9a67c2d78303.jpg
@@ -520,7 +534,7 @@ const exploreImages =[
   <iframe 
    
     title="SUGAR's New TV Commercial"
-    src='https://www.youtube.com/embed/ZNPEgRIEkBY'
+    src='https://staticimg.tanishq.co.in/videos/ge-dt.mp4' 
     allowFullScreen
   />
 </AspectRatio>
@@ -529,9 +543,11 @@ const exploreImages =[
   <iframe
    
     title="SUGAR's New TV Commercial"
-    src='https://www.youtube.com/embed/ZNPEgRIEkBY'
+    src='https://staticimg.tanishq.co.in/videos/ge-dt.mp4'
     allowFullScreen
   />
+
+
 </AspectRatio>
 {/*         <iframe width="100%" height="" src="https://www.youtube.com/embed/ZNPEgRIEkBY" title="SUGAR's New TV Commercial ft. Ranveer & Tamannaah | In Hindi | #ShukarHaiSUGARHai | SUGAR Cosmetics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  */}        </div>

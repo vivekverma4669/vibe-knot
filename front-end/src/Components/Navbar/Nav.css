@@ -13,7 +13,12 @@
   font-weight: bold;
 }
 .slideI{
-
+   height: 600px;
+   width: 800px;
+}
+.slideI img{
+  width: 100%;
+  height: 100%;
 }
 
 

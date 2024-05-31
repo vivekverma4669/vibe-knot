@@ -37,7 +37,7 @@
  }
  .bestsellersSlider{
   width: 80%;
- margin:  auto;
+  margin: auto;
  }
  
  .justinSlider, .hotdealsSlider{
@@ -97,6 +97,9 @@
   width: 95%;
  margin: 0px auto;
 }
+
+
+
     @media screen and (min-width: 786px) and (max-width: 1024px) {
       .newlaunches img{
         height: 200px;
