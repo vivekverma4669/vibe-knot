@@ -19,19 +19,27 @@ import { useContext } from "react";
         <span></span>
       </div>
 
+      <input  type="text" id="searchBox" placeholder=" search your willing🔍" />
+
       <ul className={menuOpen ? "open" : ""} id="atag">
-        <li>
+
+
+         {/* <li>
           <NavLink to="/">Home</NavLink>
+        </li> */}
+
+        <li>
+          <NavLink to="/about ">about us ?</NavLink>
+        </li>
+        
+        <li>
+
+          <NavLink to="/your ">Your orders</NavLink>
         </li>
         <li>
-          <NavLink to="/create">Add-Task</NavLink>
-        </li>
-        <li>
-          <NavLink to="/list">Task List</NavLink>
-        </li>
-        <li>
-          <NavLink to="/about">About</NavLink>
-        </li>
+
+          <NavLink to="/cart">cart</NavLink>
+        </li> 
 
         <li>
         <NavLink to="/profile">

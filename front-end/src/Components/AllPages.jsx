@@ -12,11 +12,10 @@ import MakeupIndividual from "./IndividualPages/MakeupIndividual";
 import Search from "../Pages/Search";
 import LipsIndividual from "./IndividualPages/LipsIndividual";
 import Login from "../Pages/Login";
-function AllPages
-(){
+function AllPages(){
     return <div>
-        
        <Routes>
+
         <Route path="/"  element={<Home/>}></Route>
         <Route path="/login"  element={<Login/>}></Route>
         <Route path="/cart"  element={<Cart/>}></Route>
@@ -36,8 +35,8 @@ function AllPages
         <Route path="/Liquid /:id"  element={<LipsIndividual/>}></Route> 
         <Route path="/Lip stain/:id"  element={<LipsIndividual/>}></Route> 
         <Route path="/search/"  element={<Search/>}></Route>
+        
        </Routes>
-
     </div>
 }
 export default AllPages;
