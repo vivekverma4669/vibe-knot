@@ -12,6 +12,8 @@ const earRingsScheama = mongoose.Schema({
     category : { type : String ,  required : true},
 });
 
+
+
 const earRingsModel= mongoose.model('earRings',earRingsScheama);
 module.exports= earRingsModel;
 
